@@ -231,6 +231,9 @@ public class Banking {
             }
         }
     }
+    void dummyFunction(){
+        System.out.println("Do nothing...");
+    }
     public static void main(String[] args) {
         Banking bank = new Banking();
         bank.getChoice();
