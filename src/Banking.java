@@ -231,8 +231,12 @@ public class Banking {
             }
         }
     }
+    void dummyFunction(){
+        System.out.println("Hello");
+    }
     public static void main(String[] args) {
         Banking bank = new Banking();
         bank.getChoice();
+        bank.dummyFunction();
     }
 }
